@@ -35,6 +35,7 @@
 
 *.pdf
 
+.history
 
 /.vs/
 /x64/

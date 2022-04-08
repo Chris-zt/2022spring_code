@@ -1,0 +1,30 @@
+//删除蒙哥阅读器导出单词中多余的部分
+
+#include "Base.h"
+
+int main()
+{
+	fstream myfile, file;
+	myfile.open("W:\\WorkPlace\\2022spring_code\\tmp\\wordbook0.txt", ios::in);
+	file.open("W:\\WorkPlace\\2022spring_code\\tmp\\1.txt", ios::out);
+
+	string buf;
+	while (getline(myfile, buf))
+	{
+		for (int i = 0; i < buf.size(); i++)
+		{
+			if (buf[i] <= 'z' && buf[i] >= 'a')
+				file << buf[i];
+			else
+			{
+				if (buf[i] == ' ' || buf[i] == '\t')
+					break;
+				file << endl;
+				break;
+			}
+		}
+	}
+
+	system("spause");
+	return 0;
+}

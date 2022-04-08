@@ -1,0 +1,16 @@
+		addra = 4'h0; dina = 8'h00; #4;
+		addra = 4'h1; dina = 8'h10; #4;
+		addra = 4'h2; dina = 8'h20; #4;
+		addra = 4'h3; dina = 8'h30; #4;
+		addra = 4'h4; dina = 8'h40; #4;
+		addra = 4'h5; dina = 8'h50; #4;
+		addra = 4'h6; dina = 8'h60; #4;
+		addra = 4'h7; dina = 8'h70; #4;
+		addra = 4'h8; dina = 8'h80; #4;
+		addra = 4'h9; dina = 8'h90; #4;
+		addra = 4'ha; dina = 8'ha0; #4;
+		addra = 4'hb; dina = 8'hb0; #4;
+		addra = 4'hc; dina = 8'hc0; #4;
+		addra = 4'hd; dina = 8'hd0; #4;
+		addra = 4'he; dina = 8'he0; #4;
+		addra = 4'hf; dina = 8'hf0; #4;
