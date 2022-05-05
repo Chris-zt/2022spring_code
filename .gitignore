@@ -34,8 +34,16 @@
 
 
 *.pdf
+*.mp4
+*.ppt
+*.png
 
 .history
+Ripes-v2.1.0-win-x86_64_
+temp
+.vscode
+
+
 
 /.vs/
 /x64/
